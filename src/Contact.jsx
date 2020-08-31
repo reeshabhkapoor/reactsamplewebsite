@@ -20,6 +20,7 @@ const Contact = () => {
 
   const formSubmit = () => {
     console.log(data);
+    alert("Details submitted. Thank you.")
   };
 
   return (
