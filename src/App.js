@@ -16,11 +16,11 @@ const App = () => {
       <div id="container">
         <NavBar />
         <Switch>
-          <Route exact path="/reactsamplewebsite" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/contact" component={Contact} />
-          <Redirect to="/reactsamplewebsite" />
+          <Redirect to="/" />
         </Switch>
         <Footer />
       </div>
