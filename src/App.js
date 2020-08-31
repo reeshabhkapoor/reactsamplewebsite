@@ -17,9 +17,9 @@ const App = () => {
         <NavBar />
         <Switch>
           <Route exact path="/reactsamplewebsite" component={Home} />
-          <Route exact path="/reactsamplewebsite/about" component={About} />
-          <Route exact path="/reactsamplewebsite/services" component={Services} />
-          <Route exact path="/reactsamplewebsite/contact" component={Contact} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/contact" component={Contact} />
           <Redirect to="/reactsamplewebsite" />
         </Switch>
         <Footer />
