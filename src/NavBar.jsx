@@ -10,7 +10,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
-                  JKM
+                  JKM Travels
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -34,7 +34,7 @@ const NavBar = () => {
                         activeClassName="menu_active"
                         className="nav-link active"
                         aria-current="page"
-                        to="/"
+                        to="/reactsamplewebsite"
                       >
                         Home
                       </NavLink>
@@ -44,7 +44,7 @@ const NavBar = () => {
                         exact
                         activeClassName="menu_active"
                         className="nav-link"
-                        to="/services"
+                        to="/reactsamplewebsite/services"
                       >
                         Services
                       </NavLink>
@@ -54,7 +54,7 @@ const NavBar = () => {
                         exact
                         activeClassName="menu_active"
                         className="nav-link"
-                        to="/about"
+                        to="/reactsamplewebsite/about"
                       >
                         About
                       </NavLink>
@@ -64,7 +64,7 @@ const NavBar = () => {
                         exact
                         activeClassName="menu_active"
                         className="nav-link"
-                        to="/contact"
+                        to="/reactsamplewebsite/contact"
                       >
                         Contact
                       </NavLink>

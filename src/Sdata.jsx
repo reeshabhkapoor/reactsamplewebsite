@@ -1,19 +1,23 @@
-import Web from "./Images/web-development.jpg";
-import App from "./Images/app-development.jpg";
-import Soft from "./Images/software-development.jpg";
+import Events from "./Images/events.jpg";
+import Stay from "./Images/stay.jpg";
+import Trip from "./Images/trip.jpg";
 
 const Sdata = [
   {
-    imgsrc: Web,
-    title: "Web Development",
+    imgsrc: Stay,
+    title: "Book a stay!",
+    description: "We manage Instant hotel bookings – across the world.",
   },
   {
-    imgsrc: App,
-    title: "App Development",
+    imgsrc: Events,
+    title: "Events",
+    description:
+      "We organize all types of events. Marriages, Conferences & seminars etc.",
   },
   {
-    imgsrc: Soft,
-    title: "Software Development",
+    imgsrc: Trip,
+    title: "Trip Planner",
+    description: "Looking for a trip? We also deal in Educational & Corporate tours",
   },
 ];
 
